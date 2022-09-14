@@ -8,6 +8,11 @@
 * [DEPENDENCY] Update quay.io/cortexproject/cortex Docker tag to v1.13.0 #381
 * [DEPENDENCY] Update kiwigrid/k8s-sidecar Docker tag to v1.19.4 #387
 
+## 1.6.0-1 / 2022-09-14
+
+* Changed chart dependencies from default upstream projects to our chartmuseum (Kubernetes internal naming) for:
+  - memcached
+
 ## 1.6.0 / 2022-06-10
 
 * [CHANGE] move from omegavvweapon/kopf-k8s-sidecar to kiwigrid/k8s-sidecar #365

@@ -19,38 +19,38 @@ dependencies:
   - name: memcached
     alias: memcached
     version: 5.15.14
-    repository: https://charts.bitnami.com/bitnami
+    repository: http://chartmuseum.flux-system.svc.cluster.local:8080
     condition: memcached.enabled
   - name: memcached
     alias: memcached-index-read
     version: 5.15.14
-    repository: https://charts.bitnami.com/bitnami
+    repository: http://chartmuseum.flux-system.svc.cluster.local:8080
     condition: memcached-index-read.enabled
   - name: memcached
     alias: memcached-index-write
     version: 5.15.14
-    repository: https://charts.bitnami.com/bitnami
+    repository: http://chartmuseum.flux-system.svc.cluster.local:8080
     condition: memcached-index-write.enabled
   - name: memcached
     alias: memcached-frontend
     version: 5.15.14
-    repository: https://charts.bitnami.com/bitnami
+    repository: http://chartmuseum.flux-system.svc.cluster.local:8080
     condition: memcached-frontend.enabled
   - name: memcached
     alias: memcached-blocks-index
     version: 5.15.14
-    repository: https://charts.bitnami.com/bitnami
+    repository: http://chartmuseum.flux-system.svc.cluster.local:8080
     tags:
       - blocks-storage-memcached
   - name: memcached
     alias: memcached-blocks
     version: 5.15.14
-    repository: https://charts.bitnami.com/bitnami
+    repository: http://chartmuseum.flux-system.svc.cluster.local:8080
     tags:
       - blocks-storage-memcached
   - name: memcached
     alias: memcached-blocks-metadata
     version: 5.15.14
-    repository: https://charts.bitnami.com/bitnami
+    repository: http://chartmuseum.flux-system.svc.cluster.local:8080
     tags:
       - blocks-storage-memcached
